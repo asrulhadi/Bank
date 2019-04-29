@@ -82,7 +82,7 @@ namespace BankAccountNS
         {
             BankAccount ba = new BankAccount("Mr. Bryan Walton", 11.99);
             // entahlah aku pun tak paham
-            // tak paham 2
+            // tak paham 2 - lagi tak paham
 
             ba.Credit(5.77);
             ba.Debit(11.22);
