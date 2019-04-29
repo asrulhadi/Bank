@@ -86,6 +86,7 @@ namespace BankAccountNS
             ba.Debit(11.22);
             Console.WriteLine("Current balance is ${0}", ba.Balance);
             // di sini ku ubah sebelum branch baru
+            // tak paham master 1
         }
     }
 }
