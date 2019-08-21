@@ -50,7 +50,7 @@ namespace BankAccountNS
                 throw new ArgumentOutOfRangeException("amount");
             }
 
-            m_balance += amount; // intentionally incorrect code
+            m_balance -= amount; // intentionally incorrect code
         }
 
         public void Credit(double amount)
@@ -81,15 +81,10 @@ namespace BankAccountNS
         public static void Main()
         {
             BankAccount ba = new BankAccount("Mr. Bryan Walton", 11.99);
-            // entahlah aku pun tak paham
-            // tak paham 2 - lagi tak paham
 
             ba.Credit(5.77);
             ba.Debit(11.22);
             Console.WriteLine("Current balance is ${0}", ba.Balance);
-            // di sini ku ubah sebelum branch baru
-            // tak paham master 1
-            // tak paham master 2
         }
     }
 }
